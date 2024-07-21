@@ -2,8 +2,9 @@
 title: "Heavy update!"
 summary: "NextBlog has finally received an update, adding many features. Let's introduce them one by one！🎉"
 date: 2024-07-17
-tags: ["NextBlog","Features"]
+tags: ["NextBlog", "Features"]
 pinned: 1
+chanel: "blog"
 ---
 
 ## Pagination
@@ -12,7 +13,7 @@ The pagination feature has been added to the article list page, and the number o
 
 Although I don't think the pagination feature is necessary, some people may like it, so I added this feature.
 
-``` javascript
+```javascript
     blog: {
         ...
         comment: {...},
@@ -23,7 +24,6 @@ Although I don't think the pagination feature is necessary, some people may like
         }
     },
 ```
-
 
 ## Table of contents
 
@@ -37,7 +37,6 @@ It is worth mentioning that top-level titles will not appear in the directory
 
 Check the table of contents on the right side of the article and experience it
 
-
 ## Pinned articles
 
 Adding the 'pinned' field to YAML Front Matter in the article will fix the article at the top of the article list.
@@ -46,11 +45,11 @@ The articles that are placed at the top will not be sorted by publication date, 
 The smaller the value, the higher the ranking of the article.
 
 ```yaml
-    title: ...
-    summary: ...
-    date: ...
-    tags: ...
-    pinned: 1 // 2,3,4...
+title: ...
+summary: ...
+date: ...
+tags: ...
+pinned: 1 // 2,3,4...
 ```
 
 The current article is a pinned article
@@ -68,7 +67,6 @@ date: 2024-08-01
 tags: ...
 draft: ...
 ```
-
 
 ## Remark and Rehype
 
@@ -88,20 +86,17 @@ NextBlog has integrated the following plugins:
 
 We will continue to add more plugins in the future to make the article more beautiful and practical.
 
-
 ## Side toolbar
 
 > This function is temporarily uncontrollable, and the display is fixed on the left side of the page.
 
 This feature is still in its early stages and can only return to the previous page and scroll to comments.
 
-
 ## Back to top
 
 > This function is temporarily uncontrollable, and the display is fixed on the right side of the page.
 
 Now you can easily return to the top with just one click, without the need to slowly slide to the top anymore!
-
 
 ## Final words
 
@@ -112,6 +107,3 @@ Finally, thank you all for your support of NextBlog. I will continue to work har
 Thank you for your support! 🙏
 
 If you like this project, please give me a star ✨ [GitHub](https://github.com/imyuanli/next-blog). Thank you!
-
-
-
